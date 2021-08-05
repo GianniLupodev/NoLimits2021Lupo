@@ -1,0 +1,93 @@
+// $base-font-size: 20px;
+// $base-color: black;
+// $title-font: normal 24px/1.5 "Open Sans", sans-serif;
+// $normal-font: normal 15px/1.5 "Open Sans", sans-serif;
+// $back-color: red ;
+
+
+
+// h1.title {
+//     font: $title-font; 
+//     color: $back-color;
+// }
+
+// .body {
+//     background-color: #FFFFFF;
+// }
+
+// .p{
+//     font: $normal-font;
+//     color: $base-color;
+// }
+ 
+// .nav{
+//     background-color: $base-color;
+// }
+
+$continuar-color: #010101;
+$white-color: #ffffff;
+$crear-color: grey;
+$borde: 2px #000000 solid;
+$tamanio-logo: 60px;
+
+.boton-uno {
+    background-color: $continuar-color;
+    color: $white-color;
+    border: $borde;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.logo {
+    width: $tamanio-logo;
+    border: $borde;
+}
+
+.contenedor-iniciar {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 45%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.iniciar-info {
+    text-align: left;
+    font-size: 15px;
+}
+
+.iniciar-leyenda {
+    font-size: 10px;
+}
+
+.iniciar-title {
+    text-align: center;
+    text-decoration: underline black
+}
+
+.iniciar-logo {
+    margin-left:23%;
+    height: 15%;
+    width: 10%;
+}
+
+.iniciar-button {
+    background-color: #010101;
+    color: #ffffff;
+    border: 2px #000000 solid;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-left: 25%;
+}
+
+.imput-iniciar{
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding-right: 15rem;
+    
+}
+

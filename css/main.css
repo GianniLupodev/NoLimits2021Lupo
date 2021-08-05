@@ -1,0 +1,49 @@
+.boton-uno {
+  background-color: #010101;
+  color: #ffffff;
+  border: 2px #000000 solid;
+  border-radius: 5px;
+  padding: 0.5rem 1rem; }
+
+.logo {
+  width: 60px;
+  border: 2px #000000 solid; }
+
+.contenedor-iniciar {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 45%;
+  justify-content: center;
+  align-items: center; }
+
+.iniciar-info {
+  text-align: left;
+  font-size: 15px; }
+
+.iniciar-leyenda {
+  font-size: 10px; }
+
+.iniciar-title {
+  text-align: center;
+  text-decoration: underline black; }
+
+.iniciar-logo {
+  margin-left: 23%;
+  height: 15%;
+  width: 10%; }
+
+.iniciar-button {
+  background-color: #010101;
+  color: #ffffff;
+  border: 2px #000000 solid;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-left: 25%; }
+
+.imput-iniciar {
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding-right: 15rem; }
